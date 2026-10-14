@@ -61,4 +61,129 @@
         </div>
     </section>
 
+    <!-- Registration Form -->
+    <section id="Form registration" class="max-w-4xl mx-auto mt-8">
+        <div class="bg-white p-6 rounded-xl shadow-sm border">
+
+            <h2 class="text-2xl font-bold mb-6">
+                Team Registration Form
+            </h2>
+
+            <form>
+
+                <div class="grid md:grid-cols-2 gap-4">
+
+                    <div>
+                        <label class="block mb-2 font-medium">
+                            Full Name
+                        </label>
+                        <input type="text"
+                            placeholder="Enter your full name"
+                            class="w-full border rounded px-3 py-2">
+                    </div>
+
+                    <div>
+                        <label class="block mb-2 font-medium">
+                            Team Name
+                        </label>
+                        <input type="text"
+                            placeholder="Enter your team's name"
+                            class="w-full border rounded px-3 py-2">
+                    </div>
+
+                    <div>
+                        <label class="block mb-2 font-medium">
+                            Phone Number
+                        </label>
+                        <input type="text"
+                            placeholder="08xxxxxxxxxx"
+                            class="w-full border rounded px-3 py-2">
+                    </div>
+
+                    <div>
+                        <label class="block mb-2 font-medium">
+                            Class
+                        </label>
+                        <select class="w-full border rounded px-3 py-2">
+                            <option>-- Select Class --</option>
+                            <option>X</option>
+                            <option>XI</option>
+                            <option>XII</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <!-- Gender -->
+                <div class="mt-5">
+                    <label class="font-medium block mb-2">
+                        Gender
+                    </label>
+
+                    <div class="flex gap-5">
+                        <label>
+                            <input type="radio" name="gender">
+                            Male
+                        </label>
+
+                        <label>
+                            <input type="radio" name="gender">
+                            Female
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Category -->
+                <div class="mt-5">
+                    <label class="block mb-2 font-medium">
+                        Competition Category
+                    </label>
+
+                    <select class="w-full border rounded px-3 py-2">
+                        <option>-- Select Category --</option>
+                        <option>Web Development</option>
+                        <option>Mobile App</option>
+                        <option>UI/UX Design</option>
+                    </select>
+                </div>
+
+                <!-- Participation -->
+                <div class="mt-5">
+                    <label class="font-medium block mb-2">
+                        Participation Type
+                    </label>
+
+                    <div class="flex gap-5">
+                        <label>
+                            <input type="radio" name="type">
+                            Individual
+                        </label>
+
+                        <label>
+                            <input type="radio" name="type">
+                            Team
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Description -->
+                <div class="mt-5">
+                    <label class="block mb-2 font-medium">
+                        Project Description
+                    </label>
+
+                    <textarea rows="4"
+                        placeholder="Describe your project or competition entry..."
+                        class="w-full border rounded px-3 py-2"></textarea>
+                </div>
+
+                <button
+                    class="w-full mt-5 bg-red-600 text-white py-3 rounded font-semibold hover:bg-red-700">
+                    Register Now
+                </button>
+
+            </form>
+        </div>
+    </section>
+
 </body>
